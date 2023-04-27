@@ -68,11 +68,17 @@ try:
         value.append(U)
         print(U)
         svet(U)
+    gpio.output(troyka, 0)
+    while U < 224:
+        U = adc()
+        value.append(U)
+        print(U)
+        svet(U)
     
     
     #Разрядка конденсатора
-    gpio.output(troyka, 0)
-    while U > 2:
+    gpio.output(troyka, 1)
+    while U < 224:
         U = adc()
         value.append(U)
         print(U)
