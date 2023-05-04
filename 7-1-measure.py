@@ -78,7 +78,7 @@ try:
     
     #Разрядка конденсатора
     gpio.output(troyka, 1)
-    while U > 68:
+    while U > 0:
         U = adc()
         value.append(U)
         print(U)
