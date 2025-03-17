@@ -2,7 +2,7 @@
 
 1. Установите [Visual Studio 2022](https://visualstudio.microsoft.com/ru/downloads/).
 2. Скачайте файл [VisualGDB-5.6r8_retail.msi](https://fost.ws/soft/visualgdb-5-6-r8-key-2023/?ysclid=m8cre3j7go885579343) и установите
-3. Скачайте [Git](https://git-scm.com/downloads/win)/
+3. Скачайте [Git](https://git-scm.com/downloads/win/)
 4. Создайте рабочую папку и откройте там git command line
 5. Введите команду для клонирования репозитория 
 
