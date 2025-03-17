@@ -13,6 +13,7 @@
 ```cd controllerat32/```
 
 7. Подгрузите подмодули из других репозиториев
+### ВНИМАНИЕ!!! Эти модули нельзя загрузить с рабочего интернета, только с внешнего
 
 ```git submodule update --init --recursive```
 
@@ -22,3 +23,5 @@
 
 ## Возможные ошибки
 Если видите ошибку attempt to rename spec ```'link' to already defined spec 'nano_link'```, то зайдите в файл stm32.props и удалите строку, содержащую: ```<AdditionalOptions>--specs=nano.specs --specs=nosys.specs -Wl,--no-warn-rwx-segments %(Link.AdditionalOptions)</AdditionalOptions>```
+
+Если не загружаются submodules, то попробуйте поменять сеть WI-Fi
